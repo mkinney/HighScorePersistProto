@@ -1,0 +1,1 @@
+global.ini_filename = "Settings/savedata.ini";
