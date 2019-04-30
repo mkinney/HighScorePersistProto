@@ -12,7 +12,4 @@ if (keyboard_check_released(vk_escape)) {
 
 if (keyboard_check_released(ord("R"))) {
 	highscore_clear();
-	if file_exists(global.ini_filename) {
-		file_delete(global.ini_filename);
-	}
 }
